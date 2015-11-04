@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Users's list</title>
+    <link rel="stylesheet" href="src/css/all.min.css">
+    <script src="src/js/build.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Users' list</h1>
+
+    <div class="table-holder">
+        <span class="ajax-loader">Data is loading...</span>
+    </div>
+
+    <div class="filters">
+        <span>Get users by first name, last name, email or #uid:</span>
+        <input type="text" id="filter" placeholder="Type value here"/>
+        <span class="english-result">Perhaps you mean <em></em></span>
+    </div>
+
+    <div class="filters">
+        Get users
+        <span>by job</span> <div class="dropdown" id="job"></div>
+        <span>or by country</span> <div class="dropdown" id="country"></div>
+    </p>
+
+    <div class="results"></div>
+</div>
+</body>
+</html>

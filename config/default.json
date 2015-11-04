@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": "8124"
+  },
+  "paths": {
+    "views": "views",
+    "scripts": "scripts",
+    "prodFolder": "src",
+    "prodScripts": "js",
+    "styles": "styles",
+    "prodCSS": "css",
+    "tsv": "data/data.tsv"
+
+  },
+  "fileNames": {
+    "mainHTML": "index.html",
+    "buildJS": "build.js",
+    "minJS": "main.min.js",
+    "allCSS": "all.min.css",
+    "usersJSON": "users.json"
+  }
+}

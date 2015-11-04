@@ -1,0 +1,9 @@
+.git/*
+node_modules/*
+*min*js
+users.json
+.editorconfig
+.jscsrc
+.jshintignore
+.jshintrc
+.gitignore
