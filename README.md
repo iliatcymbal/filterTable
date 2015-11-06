@@ -1,3 +1,7 @@
+The simple example of nodeJS server and ui-filtering of the data. 
+The data is asynchronously received from the server, where this data had been converted from TSV to JSON.
+
+Installation.
 1. Run "npm install".
 2. Run "npm run full-start" and wait for the console output "Server running at http://127.0.0.1:8124".
 3. Open http://127.0.0.1:8124 in your browser.
